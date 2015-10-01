@@ -2,7 +2,7 @@ Rails.application.routes.draw do
   get 'backend/manage'
 
   # Rota para teste de backend
-  root 'welcome#index'
+  root 'backend#manage'
 
  
 end
